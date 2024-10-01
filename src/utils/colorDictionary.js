@@ -1,3 +1,7 @@
+/**
+ * All modern browsers support the following 140 color names
+ * https://www.w3schools.com/TAGs/ref_colornames.asp
+ */
 const colorDictionary = {
   aliceblue: "#F0F8FF",
   antiquewhite: "#FAEBD7",

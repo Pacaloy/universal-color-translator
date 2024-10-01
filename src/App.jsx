@@ -10,25 +10,27 @@ function App() {
   const convertHandler = (event) => {
     event.preventDefault()
     const userInput = colorName.toLowerCase()
+    const hexCode = colorDictionary[userInput]
 
-    if (!colorDictionary[userInput]) {
+    if (!hexCode) {
       alert('Please enter a valid color name')
       return
     }
 
-    const hexCode = colorDictionary[userInput]
     setColorHexCode(hexCode)
     if (colorBoxRef.current) colorBoxRef.current.style.backgroundColor = hexCode
-  };
+  }
 
   return (
     <>
       <h1>Universal Color Translator</h1>
+
       <div className="box">
         <div className='color_box' ref={colorBoxRef}></div>
         <div className='hex_code'>{colorHexCode}</div>
       </div>
-      <div className="card">
+
+      <div className="controls">
         <form onSubmit={(e) => convertHandler(e)}>
           <div className='input_container'>
             <input

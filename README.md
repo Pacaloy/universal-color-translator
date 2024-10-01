@@ -1,8 +1,6 @@
-# React + Vite
+# Universal Color Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app that provides a user interface to convert color names to their respective hex codes.
+It allows users to input a color name, and upon submission, displays the corresponding color and hex code .
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All modern browsers support the following 140 color names in https://www.w3schools.com/TAGs/ref_colornames.asp.
