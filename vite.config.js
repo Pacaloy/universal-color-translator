@@ -8,6 +8,5 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './setupConfig.js',
-    base: "/universal-color-translator/",
   },
 })
