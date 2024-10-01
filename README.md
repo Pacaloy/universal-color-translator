@@ -14,7 +14,7 @@ Ensure you have **Node.js** and **npm** installed on your machine. You can downl
 ### 1. Clone the repository to your local machine and navigate inside the project directory:
 
 #### `git clone https://github.com/Pacaloy/universal-color-translator.git`
-#### `cd universal-color-translator.git`
+#### `cd universal-color-translator`
 
 ### 2. Install the dependencies:
 
