@@ -34,3 +34,9 @@ input[type=text] {
 .clear:hover {
   opacity: 1;
 }
+
+.invalid {
+  height: 24px;
+  margin-top: 10px;
+  color: #ff0000;
+}
