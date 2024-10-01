@@ -51,7 +51,6 @@ describe(App, () => {
     expect(hexCode).toEqual('#008000')
   })
 
-  // TODO
   it('no changes on invalid input', () => {
     const { getByTestId } = render(<App />)
     
